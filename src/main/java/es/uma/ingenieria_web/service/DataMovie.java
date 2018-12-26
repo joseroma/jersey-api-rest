@@ -39,13 +39,13 @@ public class DataMovie {
 
             conn =
                     DriverManager.getConnection("jdbc:mysql://localhost/filmAffinity3?" +
-                            "user=root&password=nairapass");
+                            "user=root&password=password");
             conn1 =
                     DriverManager.getConnection("jdbc:mysql://localhost/filmAffinity3?" +
-                            "user=root&password=nairapass");
+                            "user=root&password=password");
             conn2 =
                     DriverManager.getConnection("jdbc:mysql://localhost/filmAffinity3?" +
-                            "user=root&password=nairapass");
+                            "user=root&password=password");
             stmt = conn.createStatement();
             stmt1 = conn.createStatement();
             stmt2 = conn.createStatement();

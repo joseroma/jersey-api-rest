@@ -40,10 +40,10 @@ public class DataActors {
 
             conn =
                     DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/filmAffinity3" ,
-                            "root", "nairapass");
+                            "root", "password");
             conn1 =
                     DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/filmAffinity3" ,
-                            "root", "nairapass");
+                            "root", "password");
             stmt = conn.createStatement();
             stmt1 = conn.createStatement();
             rs = stmt.executeQuery("SELECT * FROM ACTOR");

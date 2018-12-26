@@ -36,11 +36,11 @@ public class DataDirector {
 
             conn =
                     DriverManager.getConnection("jdbc:mysql://localhost/filmAffinity3?" +
-                            "user=root&password=nairapass");
+                            "user=root&password=password");
 
             conn1 =
                     DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/filmAffinity3" ,
-                            "root", "nairapass");
+                            "root", "password");
 
             stmt = conn.createStatement();
             stmt1 = conn.createStatement();
